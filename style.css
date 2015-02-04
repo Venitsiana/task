@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(245,245,245);
+}
+#container{
+	height: 100%;
+	margin: auto;
+	padding-left:100px;
+	background-color: rgb(245,245,245);
+	position: relative;
+}
+#menu{
+	margin-top: 50px;
+}
+.form-group{
+	width: 500px;
+	position: relative;	
+}
+form{
+	clear: left;
+}
+#menu{
+	padding-bottom: 15px;
+}
+#menu a{
+	color: rgb(41, 175, 142);
+	text-decoration: underline;
+	padding-right: 10px;
+}
+#comment{
+	resize: none;
+}
+#submit{
+	background-color: rgb(41, 175, 142);
+	width: 150px;
+	margin-left: 350px;
+	margin-top: -20px;
+	text-transform: uppercase;
+}
+#errorMsg{
+	color: red;
+	font-style: italic;
+	visibility: hidden;
+}
+#accordion{
+	overflow:auto; 
+	height: 500px;
+	width: 500px;
+	float: left;
+	margin-left: 530px;
+	margin-top: -500px;
+	border-radius: 5px;
+}
+#accordion div{
+	width: 500px;
+	padding: 8px 0px 8px 15px;
+	background-color: #FFF;
+	margin-bottom: 1px;	
+}
+#accordion p{
+	display: none;
+	padding: 10px 0px 10px 15px;
+	background-color: #FFF;
+	margin-bottom: 1px;
+} 
+img{
+	float:left;
+	width: 500px;	
+	margin-bottom: 15px;
+	height: 300px;
+}
