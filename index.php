@@ -4,6 +4,8 @@ function __autoload($class_name)
 	include $class_name. '.php';
 }
 ?>
+<?php echo "commit" ?>
+<?php echo "commit" ?>
 <html>
   <head>
     <title>Pictures gallery</title>
