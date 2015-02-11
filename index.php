@@ -5,7 +5,7 @@ function __autoload($class_name)
 }
 ?>
 
-<?php echo "commit" ?>
+<?php echo "novi neshta" ?>
 <html>
   <head>
     <title>Pictures gallery</title>
