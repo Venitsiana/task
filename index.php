@@ -5,7 +5,7 @@ function __autoload($class_name)
 }
 ?>
 
-<?php echo "novi neshta" ?>
+<?php echo "git flow" ?>
 <html>
   <head>
     <title>Pictures gallery</title>
